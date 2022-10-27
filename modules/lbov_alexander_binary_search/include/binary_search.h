@@ -13,7 +13,7 @@ class BinarySearch {
     ~BinarySearch() {}
     int BinSearch(T key, const std::vector<T>& array) {
         int left = 0;
-        int rigtn = static_cast<int>(array.size()) - 1;
+        int right = static_cast<int>(array.size()) - 1;
         int middle = (left + right) / 2;
         bool flag = false;
         while (left <= right && !flag) {
