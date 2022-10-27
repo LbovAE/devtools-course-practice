@@ -1,7 +1,7 @@
 // Copyright 2022 Vanyushkov Maxim
 
-#ifndef MODULES_VANYUSHKOV_M_RATIO_INCLUDE_RATIO_H_
-#define MODULES_VANYUSHKOV_M_RATIO_INCLUDE_RATIO_H_
+#ifndef MODULES_VANYUSHKOV_M_RATIO_COPY_INCLUDE_RATIO_H_
+#define MODULES_VANYUSHKOV_M_RATIO_COPY_INCLUDE_RATIO_H_
 
 class Ratio {
  private:
@@ -39,4 +39,4 @@ class Ratio {
     void set_ratio(int _numerator, int _denominator);
 };
 
-#endif  // MODULES_VANYUSHKOV_M_RATIO_INCLUDE_RATIO_H_
+#endif  // MODULES_VANYUSHKOV_M_RATIO_COPY_INCLUDE_RATIO_H_
